@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+@keyframes aylan {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header {
+  background: #f3d7b7;
+  padding: 22px 0;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+.menu li a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 130px 0;
+  background-color: #f3d7b7;
+}
+.hero .container {
+  display: flex;
+  gap: 166px;
+}
+.hero-text {
+  width: 504px;
+}
+.hero-text p {
+  margin: 20px 0;
+  line-height: 30px;
+  font-size: 19px;
+}
+.btn {
+  color: white;
+  padding: 16px 24px;
+  background: #0a775f;
+  border-radius: 40px;
+  border: none;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+}
+.katta {
+  width: 610px;
+}
+.hero-img {
+  position: relative;
+}
+.kichik {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  animation-name: aylan;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.coffee {
+  padding: 108px 0;
+  text-align: center;
+}
+.ota {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0;
+  gap: 100px;
+}
+.coffee-text {
+  width: 350px;
+  text-align: left;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.ota img {
+  transition: 1s;
+}
+.ota img:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  background: #f3d7b7;
+  padding: 40px 0;
+}
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  font-size: 24px;
+}
+.our {
+  padding: 160px 0;
+  background-color: rgb(203, 198, 198);
+}
+
+.our .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+}
+.our-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #333333;
+  margin-top: 64px;
+}
+
+.quality {
+  background: #c99b67;
+  padding: 100px 0;
+}
+
+.quality .container {
+  display: flex;
+  gap: 100px;
+}
+.quality-text {
+  color: white;
+  width: 639px;
+}
+.quality .container img {
+  margin-top: -200px;
+}
+.quality-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 28px;
+  color: rgb(231, 226, 226);
+}
